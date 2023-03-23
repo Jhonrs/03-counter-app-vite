@@ -15,9 +15,9 @@ export const CounterApp = ({ value }) => {
             <h1>CounterApp</h1>
 
             <h2>{counter}</h2>
-            <button onClick={handleAdd}>+1</button>
-            <button onClick={handleRemove}>-1</button>
-            <button onClick={handleReset}>Reset</button>
+            <button data-testid="btn-increase" onClick={handleAdd}>+1</button>
+            <button data-testid="btn-decrease" onClick={handleRemove}>-1</button>
+            <button data-testid="btn-reset" onClick={handleReset}>Reset</button>
         </>
     );
 };

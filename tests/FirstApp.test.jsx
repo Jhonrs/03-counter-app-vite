@@ -3,7 +3,7 @@ import { FirstApp } from "../src/FirstApp"
 
 describe('Pruebas en <FirstApp />', () => { 
 
-    /* test('debe de hacer match con el snapshot', () => { 
+   /*  test('debe de hacer match con el snapshot', () => { 
 
         const title = 'Hola, soy Goku';
         const { container } = render( <FirstApp title={title}/> );
@@ -35,6 +35,6 @@ describe('Pruebas en <FirstApp />', () => {
 
         expect( getAllByText(subtitle).length ).toBe(2);
 
-    })
+    });
 
- })
+ });
